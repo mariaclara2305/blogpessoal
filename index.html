@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Maria Clara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ffeef7; /* rosa bebê */
+            color: #000; /* preto */
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar {
+            background-color: #ffd4e8 !important; /* rosa bebê mais forte */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #000 !important;
+        }
+
+        .header-banner img {
+            width: 100%;
+            height: 320px;         /* tamanho igual */
+            object-fit: cover;     /* corta certinho */
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .post-card {
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            color: #000;
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .post-img {
+            width: 100%;
+            height: 220px;         /* todas as imagens iguais */
+            object-fit: cover;     /* ajusta sem distorcer */
+            border-radius: 20px 20px 0 0;
+        }
+
+        h2, h3, h5, p {
+            color: #000 !important;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-light px-4 py-3 shadow-sm">
+    <a class="navbar-brand" href="#">Blog da Maria Clara</a>
+</nav>
+
+<div class="container mt-4">
+
+    <!-- Banner -->
+    <div class="header-banner">
+        <img src="ChatGPT Image 12 de dez. de 2025, 15_03_22.png" alt="Blog da Maria Clara">
+    </div>
+
+    <h2 class="mb-4">✨ Bem-vinda ao meu mundo!</h2>
+    <p>Oi, eu sou a <strong>Maria Clara</strong>! Aqui no meu blog eu compartilho pensamentos, inspirações, moda, organização, produtividade e lifestyle. 💖</p>
+
+    <h3 class="mt-5 mb-3">🌸 Posts Recentes</h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="post-card card">
+                <img src="images.jpg" class="post-img" alt="Post 1">
+                <div class="card-body">
+                    <h5 class="card-title">Como organizar sua semana</h5>
+                    <p class="card-text">Dicas simples para manter sua rotina leve e organizada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="post-card card">
+                <img src="images3.jpg" class="post-img" alt="Post 2">
+                <div class="card-body">
+                    <h5 class="card-title">Looks fofos para o dia a dia</h5>
+                    <p class="card-text">Ideias estilosas e práticas para arrasar sempre.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="post-card card">
+                <img src="images2.jpg" class="post-img" alt="Post 3">
+                <div class="card-body">
+                    <h5 class="card-title">Rotina saudável</h5>
+                    <p class="card-text">Hábitos simples que mudam sua energia.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
